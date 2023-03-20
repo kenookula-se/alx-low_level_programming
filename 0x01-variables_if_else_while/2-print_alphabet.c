@@ -1,20 +1,20 @@
 #include <stdio.h>
-#include <ctype.h>
-
+#include <stdlib.h>
 /**
- * main - program that prints the alphabet in lowercase, followed by a new line
- * You can only use the putchar
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
-
 int main(void)
 {
-  int l = 'a';
-  while (l <= 'z')
-    {
-      putchar(l);
-      l += 1;
-    }
-  putchar('\n');
-  return (0);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	putchar('\n');
+	return (0);
 }
