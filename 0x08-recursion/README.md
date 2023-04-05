@@ -1,4 +1,4 @@
-# Welcome to 0x08-recursion
+# Welcome to 0x08-recursion section
 
 `FILE 0-puts_recursion.c` is a function that prints a string.
 
